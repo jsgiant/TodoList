@@ -1,0 +1,19 @@
+.todo-list-container {
+  background-color: #f9fbfe;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todo-list-heading {
+  text-align: center;
+  font-size: 46px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.todo-list {
+  list-style: none;
+}
