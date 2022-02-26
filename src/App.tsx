@@ -1,7 +1,12 @@
 import TodoList from "./components/TodoList";
+import { TodosProvider } from "./hooks/useTodos";
 
 function App() {
-  return <TodoList />;
+	return (
+		<TodosProvider>
+			<TodoList />
+		</TodosProvider>
+	);
 }
 
 export default App;
